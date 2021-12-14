@@ -30,4 +30,3 @@ for (i, (name, channel)) in enumerate(zip(("L", "A", "B"), cv2.split(lab))):
     cv2.imshow(name, channel)
 
 cv2.waitKey(0)
-
